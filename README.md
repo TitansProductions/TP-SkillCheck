@@ -23,10 +23,10 @@ TriggerClientEvent("tp-skillcheck:onSkillCheckStart", source, param1, param2, pa
 
 Now, we have to understand the required parameters before actually creating a skillcheck.
 
-- parameter1: Skill Check Name (A name of the skillcheck in order to get when the skillcheck was successfull or failed, ex: "open_crate").
-- parameter2: Difficulty ("NORMAL", "HARD", "VERY_HARD").
-- parameter3: Image Name (Default images: "dollar", "kg", "empty").
-- parameter4: Skill Check Title (The title that will be displayed when opening a skillcheck).
+- `parameter1`: Skill Check Name (A name of the skillcheck in order to get when the skillcheck was successfull or failed, ex: "open_crate").
+- `parameter2`: Difficulty ("NORMAL", "HARD", "VERY_HARD").
+- `parameter3`: Image Name (Default images: "dollar", "kg", "empty").
+- `parameter4`: Skill Check Title (The title that will be displayed when opening a skillcheck).
 
 
 ### Examples: 
