@@ -50,10 +50,10 @@ TriggerEvent("tp-skillcheck:onSkillCheckStart", "open_crate", "HARD", "empty", "
 There are currently two client events which provide you to call when skillcheck was successfull or failed.
 Those events are required in order to run something specific based on the skillcheck name.
 
-Examples: 
+- data.progress (To get the clicked (stopped) progress).
+- data.skillcheck (To get the skill check name).
 
-- data.progress
-- data.skillcheck
+Examples: 
 
 ```
 AddEventHandler('tp-skillcheck:onSkillCheckSuccess', function(data)
