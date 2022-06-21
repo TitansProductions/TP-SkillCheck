@@ -27,12 +27,14 @@ Now, we have to understand the required parameters before actually creating a sk
 
 After understanding the required parameters, this is how we actually create a skillcheck based on our current knowledge.
 
-Example: 
+### Examples: 
 
-            (Server Side):
+Server Side:
+
             TriggerClientEvent("tp-skillcheck:onSkillCheckStart", source, "open_crate", "HARD", "empty", "Opening Crate")
             
-            (Client Side):
+Client Side:
+
             TriggerEvent("tp-skillcheck:onSkillCheckStart", "open_crate", "HARD", "empty", "Opening Crate")
 
 ## Issues
