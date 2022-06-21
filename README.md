@@ -42,16 +42,23 @@ Client Side:
 ### Receiving SkillCheck State / Status (Success / Failed).
 
 There are currently two client events which provide you to call when skillcheck was successfull or failed.
+Those events are required in order to run something specific based on the skillcheck name.
+
+Example: 
 
 ```
 AddEventHandler('tp-skillcheck:onSkillCheckSuccess', function(data)
-     print(data.skillcheck)
+     if data.skillcheck == "open_vault" then
+        openClosestVault()
+     end
 end)
 ```
 
 ```
 AddEventHandler('tp-skillcheck:onSkillCheckFailed', function(data)
-     print(data.skillcheck)
+     if data.skillcheck == "open_vault" then
+        -- nothing since it failed, this is an example.
+     end
 end)
 ```
 
