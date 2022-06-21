@@ -20,8 +20,8 @@ Server Side:
 
 Now, we have to understand the required parameters before actually creating a skillcheck.
 
-- parameter1: Skill Check Name.
-- parameter2: Difficulty.
+- parameter1: Skill Check Name (A name of the skillcheck in order to get when the skillcheck was successfull or failed, ex: "open_crate").
+- parameter2: Difficulty ("NORMAL", "HARD", "VERY_HARD").
 - parameter3: Image Name.
 - parameter4: Skill Check Title.
             
