@@ -18,8 +18,7 @@ Server Side:
             TriggerClientEvent("tp-skillcheck:onSkillCheckStart", source, param1, param2, param3, param4)
             
 
-Those are the following events in order to create a skillcheck. 
-Now, we have to understand the required parameters.
+Now, we have to understand the required parameters before actually creating a skillcheck.
 
 - parameter1: Skill Check Name.
 - parameter2: Difficulty.
