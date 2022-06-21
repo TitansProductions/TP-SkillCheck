@@ -2,6 +2,6 @@
 A very unique skill check utility with a circular progress bar.
 
 
-# Issues
+## Issues
 
 Please use the GitHub issues system to report issues.
