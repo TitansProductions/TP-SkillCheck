@@ -2,7 +2,7 @@
 
 ## Requirements
 
-    TP-SkillCheck does not have any requirements, it is standalone.
+TP-SkillCheck does not have any requirements, it is standalone.
 
 
 ## » How to use «
