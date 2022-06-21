@@ -50,8 +50,8 @@ TriggerEvent("tp-skillcheck:onSkillCheckStart", "open_crate", "HARD", "empty", "
 There are currently two client events which provide you to call when skillcheck was successfull or failed.
 Those events are required in order to run something specific based on the skillcheck name.
 
-- `data.progress` - (To get the clicked (stopped) progress).
-- `data.skillcheck` - (To get the skill check name).
+- `data.progress` - Getting the clicked (stopped) progress.
+- `data.skillcheck` - Getting the skill check name.
 
 Examples: 
 
