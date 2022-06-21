@@ -11,12 +11,15 @@ In order to create a skillcheck, you can use the following event:
 
 Client Side:
 
-            TriggerEvent("tp-skillcheck:onSkillCheckStart", param1, param2, param3, param4)
+```
+TriggerEvent("tp-skillcheck:onSkillCheckStart", param1, param2, param3, param4)
+```
 
 Server Side:
 
-            TriggerClientEvent("tp-skillcheck:onSkillCheckStart", source, param1, param2, param3, param4)
-            
+```
+TriggerClientEvent("tp-skillcheck:onSkillCheckStart", source, param1, param2, param3, param4)
+```       
 
 Now, we have to understand the required parameters before actually creating a skillcheck.
 
@@ -32,12 +35,15 @@ After understanding the required parameters, this is how we actually create a sk
 
 Server Side:
 
-            TriggerClientEvent("tp-skillcheck:onSkillCheckStart", source, "open_crate", "HARD", "empty", "Opening Crate")
-            
+```
+TriggerClientEvent("tp-skillcheck:onSkillCheckStart", source, "open_crate", "HARD", "empty", "Opening Crate")
+```
+
 Client Side:
 
-            TriggerEvent("tp-skillcheck:onSkillCheckStart", "open_crate", "HARD", "empty", "Opening Crate")
-
+```
+TriggerEvent("tp-skillcheck:onSkillCheckStart", "open_crate", "HARD", "empty", "Opening Crate")
+```
 
 ### Receiving SkillCheck State / Status (Success / Failed).
 
