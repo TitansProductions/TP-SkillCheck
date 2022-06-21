@@ -1,5 +1,11 @@
 # TP-SkillCheck
-A very unique skill check utility with a circular progress bar.
+
+## Requirements
+
+    TP-SkillCheck does not have any requirements, it is standalone.
+
+
+## » How to use «
 
 
 ## Issues
