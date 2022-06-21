@@ -38,6 +38,23 @@ Client Side:
 
             TriggerEvent("tp-skillcheck:onSkillCheckStart", "open_crate", "HARD", "empty", "Opening Crate")
 
+
+### Receiving SkillCheck State / Status (Success / Failed).
+
+There are currently two client events which provide you to call when skillcheck was successfull or failed.
+
+```
+AddEventHandler('tp-skillcheck:onSkillCheckSuccess', function(data)
+     print(data.skillcheck)
+end)
+```
+
+```
+AddEventHandler('tp-skillcheck:onSkillCheckFailed', function(data)
+     print(data.skillcheck)
+end)
+```
+
 ## Issues
 
 Please use the GitHub issues system to report issues.
