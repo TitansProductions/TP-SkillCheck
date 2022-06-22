@@ -10,7 +10,6 @@ var removalProgressCount = 0;
 
 var lineCount = 0;
 
-// Deal Counts based on the difficulty.
 var noDeal = 23;
 var lowDeal = 24;
 var mediumDeal = 50;
