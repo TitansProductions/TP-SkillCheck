@@ -229,7 +229,7 @@ $(function() {
 					document.getElementById("skillcheck_stop_title").innerHTML =  "";
 					document.getElementById("skillcheck_success").innerHTML = "";
 
-					onDrugTransactionResults()
+					onProgressSkillCheckResults()
 				}, 4000);
 
 				// closing the menu after 4 seconds of displaying the results.
@@ -253,7 +253,7 @@ $(function() {
 		}
 	});
 
-	function onDrugTransactionResults(){
+	function onProgressSkillCheckResults(){
 		if ( (progressCount <= noDeal) || (progressCount <= noDeal && noDeal == lowDeal) ){
 			document.getElementById("skillcheck_finish_title").innerHTML = noSuccessTitle;
 
