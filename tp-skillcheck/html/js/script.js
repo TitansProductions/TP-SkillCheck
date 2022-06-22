@@ -18,7 +18,7 @@ var successDeal = 80;
 var canClick = false;
 var actionType = "not_started";
 
-function closeSellingMenu() {
+function closeSkillCheckMenu() {
 
 	progressCount = 0;
 	removalProgressCount = 0;
@@ -80,7 +80,7 @@ $(function() {
 
 		}
 		else if (item.action === 'closeUIProperly'){
-			closeSellingMenu();
+			closeSkillCheckMenu();
 
 		}
 		else if (item.action === 'addInformation'){
@@ -234,7 +234,7 @@ $(function() {
 
 				// closing the menu after 4 seconds of displaying the results.
 				setTimeout(function() { 
-					closeSellingMenu();
+					closeSkillCheckMenu();
 				}, 8000);
 
 			}
@@ -247,7 +247,7 @@ $(function() {
 			if (actionType == "not_started"){
 
 				if (canClick){
-					closeSellingMenu();
+					closeSkillCheckMenu();
 				}
 			}
 		}
