@@ -6,8 +6,8 @@ local uiType                                            = ""
 -- ------------------------------------------------------------------------------------------------------
 
 AddEventHandler('onResourceStart', function(resource)
-	if resource == GetCurrentResourceName() then
-		SetNuiFocus(false,false)
+    if resource == GetCurrentResourceName() then
+	SetNuiFocus(false,false)
     end
 end)
 
