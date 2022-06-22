@@ -11,6 +11,7 @@ AddEventHandler('onResourceStart', function(resource)
     end
 end)
 
+-- onPlayerDeath (ESX SUPPORT)
 AddEventHandler('esx:onPlayerDeath', function(data)
 
     if isInMenu then
@@ -18,6 +19,7 @@ AddEventHandler('esx:onPlayerDeath', function(data)
     end
 end)
 
+-- onPlayerDeath (QBCore SUPPORT)
 AddEventHandler('hospital:server:SetDeathStatus', function(data)
 
     if isInMenu then
